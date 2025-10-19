@@ -7,7 +7,6 @@ import ExperienceTimeline from "../components/ExperienceTimeline";
 import ProjectCard from "../components/ProjectCard";
 import Certifications from "../components/Certifications";
 import GitHubStats from "../components/GitHubStats";
-import ContactForm from "../components/ContactForm";
 import Chatbot from "../components/Chatbot";
 import Visitors from "../components/Visitors";
 
