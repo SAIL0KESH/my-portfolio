@@ -8,7 +8,6 @@ import ProjectCard from "../components/ProjectCard";
 import Certifications from "../components/Certifications";
 import GitHubStats from "../components/GitHubStats";
 import Chatbot from "../components/Chatbot";
-import Visitors from "../components/Visitors";
 
 import { skills, experience, projects, certifications, socials } from "../lib/data";
 
@@ -61,11 +60,10 @@ export default function Home() {
         </p>
       </Section>
 
-      <footer className="mx-auto max-w-6xl px-4 my-12 text-sm text-white/60 flex items-center justify-between">
-        <span>© {new Date().getFullYear()} Sai Lokesh Sanisetty</span>
-        {/* @ts-expect-error Server Component */}
-        <Visitors />
+      <footer className="mx-auto max-w-6xl px-4 my-12 text-sm text-white/60">
+        © {new Date().getFullYear()} Sai Lokesh Sanisetty
       </footer>
+
 
       {/* floating chat */}
       <Chatbot />
