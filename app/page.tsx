@@ -42,7 +42,6 @@ export default function Home() {
         {/* server component */}
         {/* Remember NEXT_PUBLIC_BASE_URL in .env.local for local dev */}
         {/* GITHUB_USERNAME env also recommended */}
-        {/* @ts-expect-error Server Component */}
         <GitHubStats />
       </Section>
 
