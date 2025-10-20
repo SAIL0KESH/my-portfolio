@@ -39,7 +39,6 @@ export default function Home() {
       </Section>
 
       <Section id="github" title="GitHub Highlights">
-        {/* server component */}
         {/* Remember NEXT_PUBLIC_BASE_URL in .env.local for local dev */}
         {/* GITHUB_USERNAME env also recommended */}
         <GitHubStats />
