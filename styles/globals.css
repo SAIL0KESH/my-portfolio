@@ -13,12 +13,25 @@
 html, body { height: 100%; }
 
 body {
-  background:
-    radial-gradient(1200px 600px at 10% -10%, rgba(139,92,246,.25), transparent 60%),
-    radial-gradient(900px 500px at 110% 10%, rgba(34,211,238,.15), transparent 60%),
-    rgb(var(--bg));
-  color: rgb(var(--fg));
+  @apply text-white;
+  min-height: 100vh;
+  background-color: #020617; /* slate-950 base */
+
+  /* Layered gradients */
+  background-image:
+    radial-gradient(circle at top left, rgba(94, 234, 212, 0.14), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(129, 140, 248, 0.2), transparent 55%),
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.16), transparent 55%),
+    linear-gradient(135deg, #020617 0%, #020617 45%, #020617 100%);
+  background-attachment: fixed;
 }
+
+/* Optional: card surface helper so panels look like glassy blocks */
+.surface {
+  @apply bg-slate-900/70 border border-white/10 rounded-3xl;
+  backdrop-filter: blur(24px);
+}
+
 
 /* Animations / helpers */
 @keyframes float {

@@ -87,8 +87,9 @@ export const socials = {
       blurb: "Next.js + FastAPI analytical dashboard with chat-based insights and citation bubbles.",
       stack: ["Next.js 14", "React", "Tailwind", "FastAPI", "OpenAPI", "PostgreSQL", "Docker"],
       github: "https://github.com/SAIL0KESH/ai-analytics-dashboard",
-      demo: "https://<your-demo-url>",
-      preview: "/project-previews/ai-dashboard.gif",
+      //demo: "https://<your-demo-url>",
+      preview: "/project-previews/analytics-dashboard.jpg",
+      //image: "/projects/ai-dashboard.jpg",
       highlights: ["RAG-style summaries", "Role-based auth (JWT)", "Server-sent streaming"]
     },
     {
@@ -96,7 +97,8 @@ export const socials = {
       blurb: "Airflow orchestration viewer with DAG runs, task status, and lineage overlay.",
       stack: ["Airflow 2.x", "React/Next.js", "Tailwind", "Postgres"],
       github: "https://github.com/SAIL0KESH/etl-visualizer",
-      preview: "/project-previews/etl-visualizer.gif",
+      preview: "/project-previews/etl-pipelines.jpg",
+      
       highlights: ["Live DAG status", "Retries/SLA indicators", "Run drilldowns"]
     },
     {
@@ -104,7 +106,8 @@ export const socials = {
       blurb: "Java services on EKS with Terraform, GH Actions → GHCR, Grafana/Prometheus dashboards.",
       stack: ["Spring Boot 3", "EKS", "Docker", "Terraform", "Grafana", "GitHub Actions"],
       github: "https://github.com/SAIL0KESH/springboot-eks-microservices",
-      preview: "/project-previews/eks-microservices.gif",
+      preview: "/project-previews/cloud-microservices.jpg",
+      //image: "/projects/eks-microservices.jpg",
       highlights: ["Blue/green deploys", "HPA autoscaling", "Structured logging"]
     },
     {
@@ -112,7 +115,8 @@ export const socials = {
       blurb: "SES-powered contact and S3 resume links; shows AWS IAM, least-privilege, and presign flows.",
       stack: ["Next.js", "AWS Lambda", "API Gateway", "SES", "S3"],
       github: "https://github.com/SAIL0KESH/serverless-contact-resume",
-      preview: "/project-previews/serverless-contact.gif",
+      preview: "/project-previews/serverless-contact.jpg",
+      //image: "/projects/serverless-contact.jpg",
       highlights: ["Infra as code", "Presigned URL rotation", "Email deliverability checks"]
     },
     {
@@ -120,7 +124,8 @@ export const socials = {
       blurb: "Apollo Server BFF federating multiple REST services; typed hooks for React.",
       stack: ["Apollo Server", "Node.js", "TypeScript", "Jest", "Docker"],
       github: "https://github.com/SAIL0KESH/graphql-bff",
-      preview: "/project-previews/graphql-bff.gif",
+      preview: "/project-previews/graphql-bff.jpg",
+      //image: "/projects/graphql-bff.jpg",
       highlights: ["Schema-first design", "DataLoader caching", "E2E tests"]
     }
   ];

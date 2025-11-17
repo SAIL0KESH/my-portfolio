@@ -17,10 +17,13 @@ export default function Home() {
       <Nav />
       <Hero />
 
-      <Section id="about" title="About">
+      <Section id="about" title="About Me">
         <p>
-          I build intelligent, cloud-native web systems. My focus is shipping resilient microservices (Spring Boot / FastAPI),
-          modern React/Next.js experiences, and data automation on AWS with great DX (CI/CD, observability).
+        Full-stack engineer who enjoys turning complex ideas into systems that feel simple, fast, and reliable. Over the past few years I’ve built projects from Spring Boot microservices to FastAPI backends, real-time dashboards, and cloud-native automation pipelines.
+        </p>
+        <br />
+        <p>
+        Most of my work involves the intersection of Java/Python, React/TypeScript, and AWS, where I get to design APIs, fix performance bottlenecks, ship clean UIs, and automate everything I can. I enjoy solving problems that require both engineering depth and UI clarity, and I love exploring ways AI/LLMs can make products smarter and workflows smoother.
         </p>
       </Section>
 

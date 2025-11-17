@@ -33,7 +33,7 @@ export default function Chatbot() {
         onClick={() => setOpen(!open)}
         className="fixed bottom-6 right-6 z-50 px-4 py-3 rounded-full bg-primary text-white shadow-lg hover:opacity-90 transition"
       >
-        {open ? "Close" : "Ask my Résumé"}
+        {open ? "Close" : "loki copilot 💬"}
       </button>
 
       {/* Panel */}

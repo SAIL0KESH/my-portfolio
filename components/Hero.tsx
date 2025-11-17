@@ -35,13 +35,7 @@ export default function Hero() {
             <a href="#projects" className="px-4 py-2 rounded-xl bg-primary hover:bg-primary/90 transition shimmer">
               Explore Projects
             </a>
-            <ResumeButton className="shimmer" />
-            <a href={socials.github} target="_blank" className="px-4 py-2 rounded-xl border border-white/20 hover:bg-white/5 transition">
-              GitHub
-            </a>
-            <a href={socials.linkedin} target="_blank" className="px-4 py-2 rounded-xl border border-white/20 hover:bg-white/5 transition">
-              LinkedIn
-            </a>
+            
           </div>
           
         </motion.div>
